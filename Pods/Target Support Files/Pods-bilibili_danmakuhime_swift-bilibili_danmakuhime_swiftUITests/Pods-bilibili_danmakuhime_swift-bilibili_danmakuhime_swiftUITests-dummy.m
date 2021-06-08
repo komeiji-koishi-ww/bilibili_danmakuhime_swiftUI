@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_bilibili_danmakuhime_swift_bilibili_danmakuhime_swiftUITests : NSObject
+@end
+@implementation PodsDummy_Pods_bilibili_danmakuhime_swift_bilibili_danmakuhime_swiftUITests
+@end

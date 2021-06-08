@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16CE0BD7DDB78EF55DDB79C0 /* Pods_bilibili_danmakuhime_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357E1394605128C948E6852 /* Pods_bilibili_danmakuhime_swiftTests.framework */; };
+		48F663F4266F602F0025AD5F /* bilibili_danmakuhime_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F663F3266F602F0025AD5F /* bilibili_danmakuhime_swiftApp.swift */; };
+		48F663F6266F602F0025AD5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F663F5266F602F0025AD5F /* ContentView.swift */; };
+		48F663F8266F60310025AD5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F663F7266F60310025AD5F /* Assets.xcassets */; };
+		48F663FB266F60310025AD5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F663FA266F60310025AD5F /* Preview Assets.xcassets */; };
+		48F66406266F60320025AD5F /* bilibili_danmakuhime_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F66405266F60320025AD5F /* bilibili_danmakuhime_swiftTests.swift */; };
+		48F66411266F60320025AD5F /* bilibili_danmakuhime_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F66410266F60320025AD5F /* bilibili_danmakuhime_swiftUITests.swift */; };
+		48F6641F266F605D0025AD5F /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6641E266F605D0025AD5F /* Macros.swift */; };
+		48F66422266F606B0025AD5F /* DannmakuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F66420266F606B0025AD5F /* DannmakuModel.swift */; };
+		48F66423266F606B0025AD5F /* DannmakuSocketRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F66421266F606B0025AD5F /* DannmakuSocketRequester.swift */; };
+		7D3FE6A4D74285582BE54123 /* Pods_bilibili_danmakuhime_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4BDBCE9F94294495EAD1B2 /* Pods_bilibili_danmakuhime_swift.framework */; };
+		D20E2F7E397A45D7D2F55265 /* Pods_bilibili_danmakuhime_swift_bilibili_danmakuhime_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9184738170849215CFC4E68B /* Pods_bilibili_danmakuhime_swift_bilibili_danmakuhime_swiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48F66402266F60320025AD5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F663E8266F602F0025AD5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F663EF266F602F0025AD5F;
+			remoteInfo = bilibili_danmakuhime_swift;
+		};
+		48F6640D266F60320025AD5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F663E8266F602F0025AD5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F663EF266F602F0025AD5F;
+			remoteInfo = bilibili_danmakuhime_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036F773CF1CEF14E8C15B2C3 /* Pods-bilibili_danmakuhime_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilibili_danmakuhime_swiftTests.release.xcconfig"; path = "Target Support Files/Pods-bilibili_danmakuhime_swiftTests/Pods-bilibili_danmakuhime_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		48F663F0266F602F0025AD5F /* bilibili_danmakuhime_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bilibili_danmakuhime_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F663F3266F602F0025AD5F /* bilibili_danmakuhime_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilibili_danmakuhime_swiftApp.swift; sourceTree = "<group>"; };
+		48F663F5266F602F0025AD5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48F663F7266F60310025AD5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48F663FA266F60310025AD5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48F663FC266F60310025AD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F66401266F60320025AD5F /* bilibili_danmakuhime_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bilibili_danmakuhime_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F66405266F60320025AD5F /* bilibili_danmakuhime_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilibili_danmakuhime_swiftTests.swift; sourceTree = "<group>"; };
+		48F66407266F60320025AD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F6640C266F60320025AD5F /* bilibili_danmakuhime_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bilibili_danmakuhime_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F66410266F60320025AD5F /* bilibili_danmakuhime_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilibili_danmakuhime_swiftUITests.swift; sourceTree = "<group>"; };
+		48F66412266F60320025AD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F6641E266F605D0025AD5F /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		48F66420266F606B0025AD5F /* DannmakuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DannmakuModel.swift; sourceTree = "<group>"; };
+		48F66421266F606B0025AD5F /* DannmakuSocketRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DannmakuSocketRequester.swift; sourceTree = "<group>"; };
+		509B20CB4E0F43115BD7BAA4 /* Pods-bilibili_danmakuhime_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilibili_danmakuhime_swift.release.xcconfig"; path = "Target Support Files/Pods-bilibili_danmakuhime_swift/Pods-bilibili_danmakuhime_swift.release.xcconfig"; sourceTree = "<group>"; };
+		5E94C865A58224F20B44F4B1 /* Pods-bilibili_danmakuhime_swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilibili_danmakuhime_swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-bilibili_danmakuhime_swiftTests/Pods-bilibili_danmakuhime_swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B82005B88CD321FFE54BDDB /* Pods-bilibili_danmakuhime_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilibili_danmakuhime_swift.debug.xcconfig"; path = "Target Support Files/Pods-bilibili_danmakuhime_swift/Pods-bilibili_danmakuhime_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		9184738170849215CFC4E68B /* Pods_bilibili_danmakuhime_swift_bilibili_danmakuhime_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bilibili_danmakuhime_swift_bilibili_danmakuhime_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A357E1394605128C948E6852 /* Pods_bilibili_danmakuhime_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bilibili_danmakuhime_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4BDBCE9F94294495EAD1B2 /* Pods_bilibili_danmakuhime_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bilibili_danmakuhime_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92506786130EECF9D675410 /* Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D96007F88E5182FF858E712D /* Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F663ED266F602F0025AD5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3FE6A4D74285582BE54123 /* Pods_bilibili_danmakuhime_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F663FE266F60320025AD5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CE0BD7DDB78EF55DDB79C0 /* Pods_bilibili_danmakuhime_swiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F66409266F60320025AD5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20E2F7E397A45D7D2F55265 /* Pods_bilibili_danmakuhime_swift_bilibili_danmakuhime_swiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F663E7266F602F0025AD5F = {
+			isa = PBXGroup;
+			children = (
+				48F663F2266F602F0025AD5F /* bilibili_danmakuhime_swift */,
+				48F66404266F60320025AD5F /* bilibili_danmakuhime_swiftTests */,
+				48F6640F266F60320025AD5F /* bilibili_danmakuhime_swiftUITests */,
+				48F663F1266F602F0025AD5F /* Products */,
+				ED4B56D8FDBAFC52606D964D /* Pods */,
+				67EF2856428D1A9284BC0A50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48F663F1266F602F0025AD5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F663F0266F602F0025AD5F /* bilibili_danmakuhime_swift.app */,
+				48F66401266F60320025AD5F /* bilibili_danmakuhime_swiftTests.xctest */,
+				48F6640C266F60320025AD5F /* bilibili_danmakuhime_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F663F2266F602F0025AD5F /* bilibili_danmakuhime_swift */ = {
+			isa = PBXGroup;
+			children = (
+				48F663F3266F602F0025AD5F /* bilibili_danmakuhime_swiftApp.swift */,
+				48F663F5266F602F0025AD5F /* ContentView.swift */,
+				48F6641E266F605D0025AD5F /* Macros.swift */,
+				48F66420266F606B0025AD5F /* DannmakuModel.swift */,
+				48F66421266F606B0025AD5F /* DannmakuSocketRequester.swift */,
+				48F663F7266F60310025AD5F /* Assets.xcassets */,
+				48F663FC266F60310025AD5F /* Info.plist */,
+				48F663F9266F60310025AD5F /* Preview Content */,
+			);
+			path = bilibili_danmakuhime_swift;
+			sourceTree = "<group>";
+		};
+		48F663F9266F60310025AD5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48F663FA266F60310025AD5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48F66404266F60320025AD5F /* bilibili_danmakuhime_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				48F66405266F60320025AD5F /* bilibili_danmakuhime_swiftTests.swift */,
+				48F66407266F60320025AD5F /* Info.plist */,
+			);
+			path = bilibili_danmakuhime_swiftTests;
+			sourceTree = "<group>";
+		};
+		48F6640F266F60320025AD5F /* bilibili_danmakuhime_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48F66410266F60320025AD5F /* bilibili_danmakuhime_swiftUITests.swift */,
+				48F66412266F60320025AD5F /* Info.plist */,
+			);
+			path = bilibili_danmakuhime_swiftUITests;
+			sourceTree = "<group>";
+		};
+		67EF2856428D1A9284BC0A50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA4BDBCE9F94294495EAD1B2 /* Pods_bilibili_danmakuhime_swift.framework */,
+				9184738170849215CFC4E68B /* Pods_bilibili_danmakuhime_swift_bilibili_danmakuhime_swiftUITests.framework */,
+				A357E1394605128C948E6852 /* Pods_bilibili_danmakuhime_swiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED4B56D8FDBAFC52606D964D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B82005B88CD321FFE54BDDB /* Pods-bilibili_danmakuhime_swift.debug.xcconfig */,
+				509B20CB4E0F43115BD7BAA4 /* Pods-bilibili_danmakuhime_swift.release.xcconfig */,
+				D96007F88E5182FF858E712D /* Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.debug.xcconfig */,
+				B92506786130EECF9D675410 /* Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.release.xcconfig */,
+				5E94C865A58224F20B44F4B1 /* Pods-bilibili_danmakuhime_swiftTests.debug.xcconfig */,
+				036F773CF1CEF14E8C15B2C3 /* Pods-bilibili_danmakuhime_swiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F663EF266F602F0025AD5F /* bilibili_danmakuhime_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F66415266F60320025AD5F /* Build configuration list for PBXNativeTarget "bilibili_danmakuhime_swift" */;
+			buildPhases = (
+				93C268E559A9B673E7ACF0EB /* [CP] Check Pods Manifest.lock */,
+				48F663EC266F602F0025AD5F /* Sources */,
+				48F663ED266F602F0025AD5F /* Frameworks */,
+				48F663EE266F602F0025AD5F /* Resources */,
+				83DC72CA45F33AC701F43F1D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bilibili_danmakuhime_swift;
+			productName = bilibili_danmakuhime_swift;
+			productReference = 48F663F0266F602F0025AD5F /* bilibili_danmakuhime_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48F66400266F60320025AD5F /* bilibili_danmakuhime_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F66418266F60320025AD5F /* Build configuration list for PBXNativeTarget "bilibili_danmakuhime_swiftTests" */;
+			buildPhases = (
+				367AD4777DAFBFCF5511F551 /* [CP] Check Pods Manifest.lock */,
+				48F663FD266F60320025AD5F /* Sources */,
+				48F663FE266F60320025AD5F /* Frameworks */,
+				48F663FF266F60320025AD5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F66403266F60320025AD5F /* PBXTargetDependency */,
+			);
+			name = bilibili_danmakuhime_swiftTests;
+			productName = bilibili_danmakuhime_swiftTests;
+			productReference = 48F66401266F60320025AD5F /* bilibili_danmakuhime_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48F6640B266F60320025AD5F /* bilibili_danmakuhime_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F6641B266F60320025AD5F /* Build configuration list for PBXNativeTarget "bilibili_danmakuhime_swiftUITests" */;
+			buildPhases = (
+				49B276658A21E26776060E83 /* [CP] Check Pods Manifest.lock */,
+				48F66408266F60320025AD5F /* Sources */,
+				48F66409266F60320025AD5F /* Frameworks */,
+				48F6640A266F60320025AD5F /* Resources */,
+				E91B595D68D477386BC387B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F6640E266F60320025AD5F /* PBXTargetDependency */,
+			);
+			name = bilibili_danmakuhime_swiftUITests;
+			productName = bilibili_danmakuhime_swiftUITests;
+			productReference = 48F6640C266F60320025AD5F /* bilibili_danmakuhime_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F663E8266F602F0025AD5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					48F663EF266F602F0025AD5F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					48F66400266F60320025AD5F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 48F663EF266F602F0025AD5F;
+					};
+					48F6640B266F60320025AD5F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 48F663EF266F602F0025AD5F;
+					};
+				};
+			};
+			buildConfigurationList = 48F663EB266F602F0025AD5F /* Build configuration list for PBXProject "bilibili_danmakuhime_swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48F663E7266F602F0025AD5F;
+			productRefGroup = 48F663F1266F602F0025AD5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F663EF266F602F0025AD5F /* bilibili_danmakuhime_swift */,
+				48F66400266F60320025AD5F /* bilibili_danmakuhime_swiftTests */,
+				48F6640B266F60320025AD5F /* bilibili_danmakuhime_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F663EE266F602F0025AD5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F663FB266F60310025AD5F /* Preview Assets.xcassets in Resources */,
+				48F663F8266F60310025AD5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F663FF266F60320025AD5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F6640A266F60320025AD5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		367AD4777DAFBFCF5511F551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bilibili_danmakuhime_swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49B276658A21E26776060E83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83DC72CA45F33AC701F43F1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilibili_danmakuhime_swift/Pods-bilibili_danmakuhime_swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilibili_danmakuhime_swift/Pods-bilibili_danmakuhime_swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bilibili_danmakuhime_swift/Pods-bilibili_danmakuhime_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C268E559A9B673E7ACF0EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bilibili_danmakuhime_swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E91B595D68D477386BC387B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests/Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F663EC266F602F0025AD5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F66423266F606B0025AD5F /* DannmakuSocketRequester.swift in Sources */,
+				48F6641F266F605D0025AD5F /* Macros.swift in Sources */,
+				48F663F6266F602F0025AD5F /* ContentView.swift in Sources */,
+				48F66422266F606B0025AD5F /* DannmakuModel.swift in Sources */,
+				48F663F4266F602F0025AD5F /* bilibili_danmakuhime_swiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F663FD266F60320025AD5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F66406266F60320025AD5F /* bilibili_danmakuhime_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F66408266F60320025AD5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F66411266F60320025AD5F /* bilibili_danmakuhime_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48F66403266F60320025AD5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F663EF266F602F0025AD5F /* bilibili_danmakuhime_swift */;
+			targetProxy = 48F66402266F60320025AD5F /* PBXContainerItemProxy */;
+		};
+		48F6640E266F60320025AD5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F663EF266F602F0025AD5F /* bilibili_danmakuhime_swift */;
+			targetProxy = 48F6640D266F60320025AD5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48F66413266F60320025AD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48F66414266F60320025AD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F66416266F60320025AD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B82005B88CD321FFE54BDDB /* Pods-bilibili_danmakuhime_swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"bilibili_danmakuhime_swift/Preview Content\"";
+				DEVELOPMENT_TEAM = TSDLJSJZ2V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = bilibili_danmakuhime_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wm.jttl.bilibili-danmakuhime-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48F66417266F60320025AD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509B20CB4E0F43115BD7BAA4 /* Pods-bilibili_danmakuhime_swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"bilibili_danmakuhime_swift/Preview Content\"";
+				DEVELOPMENT_TEAM = TSDLJSJZ2V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = bilibili_danmakuhime_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wm.jttl.bilibili-danmakuhime-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48F66419266F60320025AD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E94C865A58224F20B44F4B1 /* Pods-bilibili_danmakuhime_swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSDLJSJZ2V;
+				INFOPLIST_FILE = bilibili_danmakuhime_swiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wm.jttl.bilibili-danmakuhime-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bilibili_danmakuhime_swift.app/bilibili_danmakuhime_swift";
+			};
+			name = Debug;
+		};
+		48F6641A266F60320025AD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036F773CF1CEF14E8C15B2C3 /* Pods-bilibili_danmakuhime_swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSDLJSJZ2V;
+				INFOPLIST_FILE = bilibili_danmakuhime_swiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wm.jttl.bilibili-danmakuhime-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bilibili_danmakuhime_swift.app/bilibili_danmakuhime_swift";
+			};
+			name = Release;
+		};
+		48F6641C266F60320025AD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96007F88E5182FF858E712D /* Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSDLJSJZ2V;
+				INFOPLIST_FILE = bilibili_danmakuhime_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wm.jttl.bilibili-danmakuhime-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bilibili_danmakuhime_swift;
+			};
+			name = Debug;
+		};
+		48F6641D266F60320025AD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92506786130EECF9D675410 /* Pods-bilibili_danmakuhime_swift-bilibili_danmakuhime_swiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSDLJSJZ2V;
+				INFOPLIST_FILE = bilibili_danmakuhime_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wm.jttl.bilibili-danmakuhime-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bilibili_danmakuhime_swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F663EB266F602F0025AD5F /* Build configuration list for PBXProject "bilibili_danmakuhime_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F66413266F60320025AD5F /* Debug */,
+				48F66414266F60320025AD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F66415266F60320025AD5F /* Build configuration list for PBXNativeTarget "bilibili_danmakuhime_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F66416266F60320025AD5F /* Debug */,
+				48F66417266F60320025AD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F66418266F60320025AD5F /* Build configuration list for PBXNativeTarget "bilibili_danmakuhime_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F66419266F60320025AD5F /* Debug */,
+				48F6641A266F60320025AD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F6641B266F60320025AD5F /* Build configuration list for PBXNativeTarget "bilibili_danmakuhime_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F6641C266F60320025AD5F /* Debug */,
+				48F6641D266F60320025AD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F663E8266F602F0025AD5F /* Project object */;
+}

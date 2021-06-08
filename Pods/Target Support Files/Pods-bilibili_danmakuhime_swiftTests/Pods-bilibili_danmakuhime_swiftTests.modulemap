@@ -1,0 +1,6 @@
+framework module Pods_bilibili_danmakuhime_swiftTests {
+  umbrella header "Pods-bilibili_danmakuhime_swiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

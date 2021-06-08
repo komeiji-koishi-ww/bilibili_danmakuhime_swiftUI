@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (5.4.3)
+  - BitByteData (1.4.4)
+  - Starscream (4.0.4)
+  - SWCompression (4.5.10):
+    - BitByteData (~> 1.4.4)
+    - SWCompression/BZip2 (= 4.5.10)
+    - SWCompression/Deflate (= 4.5.10)
+    - SWCompression/GZip (= 4.5.10)
+    - SWCompression/LZMA (= 4.5.10)
+    - SWCompression/LZMA2 (= 4.5.10)
+    - SWCompression/SevenZip (= 4.5.10)
+    - SWCompression/TAR (= 4.5.10)
+    - SWCompression/XZ (= 4.5.10)
+    - SWCompression/ZIP (= 4.5.10)
+    - SWCompression/Zlib (= 4.5.10)
+  - SWCompression/BZip2 (4.5.10):
+    - BitByteData (~> 1.4.4)
+  - SWCompression/Deflate (4.5.10):
+    - BitByteData (~> 1.4.4)
+  - SWCompression/GZip (4.5.10):
+    - BitByteData (~> 1.4.4)
+    - SWCompression/Deflate
+  - SWCompression/LZMA (4.5.10):
+    - BitByteData (~> 1.4.4)
+  - SWCompression/LZMA2 (4.5.10):
+    - BitByteData (~> 1.4.4)
+    - SWCompression/LZMA
+  - SWCompression/SevenZip (4.5.10):
+    - BitByteData (~> 1.4.4)
+    - SWCompression/LZMA2
+  - SWCompression/TAR (4.5.10):
+    - BitByteData (~> 1.4.4)
+  - SWCompression/XZ (4.5.10):
+    - BitByteData (~> 1.4.4)
+    - SWCompression/LZMA2
+  - SWCompression/ZIP (4.5.10):
+    - BitByteData (~> 1.4.4)
+    - SWCompression/Deflate
+  - SWCompression/Zlib (4.5.10):
+    - BitByteData (~> 1.4.4)
+    - SWCompression/Deflate
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Starscream
+  - SWCompression
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BitByteData
+    - Starscream
+    - SWCompression
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  BitByteData: 50012554283a93b1e43e5e7b3ad00171e52589e9
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SWCompression: 9f45075af7b7915ad5116364f81eab647414fed7
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 930fc36eaf4fe3fc657589b62015f34431285cc2
+
+COCOAPODS: 1.9.1
